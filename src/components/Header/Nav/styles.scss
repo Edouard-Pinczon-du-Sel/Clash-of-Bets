@@ -1,0 +1,46 @@
+.header {
+  height: 35vh;
+  
+
+  &__nav {
+    border: 2px solid rgba(128, 128, 128, 0.514);
+    margin: 4rem 15rem;
+
+  }
+
+  &__nav--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav--input {
+    margin-left: 1rem;
+    height: 2.5rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.5rem;
+  }
+
+  &__nav--input::placeholder {
+    font-size: 1.1rem;
+  }
+
+
+  &__nav--item {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1.2rem 2rem;
+    
+
+  }
+
+  &__nav--item:hover {
+    background-color: rgba(219, 219, 224, 0.459);
+    transition: 0.3s;
+  }
+}
+
+
+
+
