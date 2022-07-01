@@ -6,18 +6,18 @@ function ListWars() {
   return (
     <section className="wars">
       <ul className="wars__list">
-        <li className="wars__list--item">Geurre 1</li>
-        <li className="wars__list--item">Guerre 2</li>
-        <li className="wars__list--item">Guerre 3</li>
-        <li className="wars__list--item">Guerre 4</li>
-        <li className="wars__list--item">Geurre 1</li>
-        <li className="wars__list--item">Guerre 2</li>
-        <li className="wars__list--item">Guerre 3</li>
-        <li className="wars__list--item">Guerre 4</li>
-        <li className="wars__list--item">Geurre 1</li>
-        <li className="wars__list--item">Guerre 2</li>
-        <li className="wars__list--item">Guerre 3</li>
-        <li className="wars__list--item">Guerre 4</li>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
+        <a href="#"><li className="wars__list--item">Geurre 1</li></a>
       </ul>
     </section>
   );
