@@ -10,9 +10,23 @@
 
   &__list--item {
     border: 1px solid gray;
+    background-color: rgba(51, 221, 51, 0.171);
     padding: 0.7rem 0.4rem;
     margin-top: 0.2rem;
     border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list--link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+  &__list--li {
+    width: 20rem;
+    margin-bottom: 0.6rem;
 
   }
 
@@ -24,7 +38,6 @@
 
   &__list--btn {
     font-size: 1.1rem;
-    margin-left: 70rem;
     height: 2.3rem;
     width: 5.8rem;
     background-color: rgba(207, 64, 64, 0.52);
