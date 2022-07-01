@@ -20,6 +20,10 @@
     padding: 0.4rem 0.5rem;
   }
 
+  &__nav--input:hover {
+    border: 2px solid rgba(19, 19, 187, 0.698);
+  }
+
   &__nav--input::placeholder {
     font-size: 1.1rem;
   }

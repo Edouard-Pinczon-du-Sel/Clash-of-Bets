@@ -1,8 +1,8 @@
 .wars {
   background-color: rgba(128, 128, 128, 0.233);
   margin: 0.6rem 15rem;
-  height: 60vh;
-  overflow: hidden;
+  height: 76.5vh;
+  overflow: auto;
 
   &__list {
     padding: 0.5rem 0.8rem
@@ -10,13 +10,30 @@
 
   &__list--item {
     border: 1px solid gray;
-    padding: 1rem 0.4rem;
+    padding: 0.7rem 0.4rem;
     margin-top: 0.2rem;
+    border-radius: 3px;
+
   }
 
   &__list--item:hover {
     background-color: rgba(128, 128, 128, 0.514);
-    transition: 0.3s;
+    transition: 0.4s;
     transform: translate(2px);
+  }
+
+  &__list--btn {
+    font-size: 1.1rem;
+    margin-left: 70rem;
+    height: 2.3rem;
+    width: 5.8rem;
+    background-color: rgba(207, 64, 64, 0.52);
+    border: none;
+    border-radius: 3px;
+  }
+
+  &__list--btn:hover {
+    background-color: rgba(204, 15, 15, 0.52);
+    transition: 0.3s;
   }
 }

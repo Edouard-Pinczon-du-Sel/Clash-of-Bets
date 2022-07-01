@@ -1,0 +1,42 @@
+.footer {
+  background-color: rgba(128, 128, 128, 0.123);
+  margin-top: 2.5rem;
+  height: 17vh;
+
+  &__list--link {
+    width: 50rem;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0.2rem;
+    color: rgb(128, 128, 128)
+
+  }
+
+  &__list--link--item:hover {
+    color: rgb(71, 69, 69);
+
+  }
+
+  &__list--media {
+    width: 25rem;
+    margin-left: 39.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0rem;
+    color: rgb(128, 128, 128)
+
+  }
+
+  &__list--media--item:hover {
+    color: rgb(71, 69, 69);
+  }
+
+  &__author {
+    text-align: center;
+    padding: 0.6rem;
+    color: rgba(128, 128, 128, 0.657)
+
+  }
+
+}
