@@ -22,6 +22,7 @@
   &__list--link {
     color: rgb(255, 255, 255);
     font-weight: bold;
+    text-shadow: 0.4px 0.4px 1.4px black;
   }
 
   &__list--li {
@@ -43,6 +44,8 @@
     background-color: rgba(207, 64, 64, 0.52);
     border: none;
     border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
   }
 
   &__list--btn:hover {

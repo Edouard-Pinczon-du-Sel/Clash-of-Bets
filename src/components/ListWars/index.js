@@ -33,25 +33,29 @@ function ListWars() {
             <li className="wars__list--li">Temps retant : XXX</li>
           </a>
           <button type="button" className="wars__list--btn">Parier</button>
-        </div><div className="wars__list--item">
+        </div>
+        <div className="wars__list--item">
           <a href="#" className="wars__list--link">
             <li className="wars__list--li">CLAN1 contre CLAN2</li>
             <li className="wars__list--li">Temps retant : XXX</li>
           </a>
           <button type="button" className="wars__list--btn">Parier</button>
-        </div><div className="wars__list--item">
+        </div>
+        <div className="wars__list--item">
           <a href="#" className="wars__list--link">
             <li className="wars__list--li">CLAN1 contre CLAN2</li>
             <li className="wars__list--li">Temps retant : XXX</li>
           </a>
           <button type="button" className="wars__list--btn">Parier</button>
-        </div><div className="wars__list--item">
+        </div>
+        <div className="wars__list--item">
           <a href="#" className="wars__list--link">
             <li className="wars__list--li">CLAN1 contre CLAN2</li>
             <li className="wars__list--li">Temps retant : XXX</li>
           </a>
           <button type="button" className="wars__list--btn">Parier</button>
-        </div><div className="wars__list--item">
+        </div>
+        <div className="wars__list--item">
           <a href="#" className="wars__list--link">
             <li className="wars__list--li">CLAN1 contre CLAN2</li>
             <li className="wars__list--li">Temps retant : XXX</li>
