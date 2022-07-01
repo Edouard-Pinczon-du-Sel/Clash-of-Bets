@@ -3,7 +3,7 @@ import './styles.css';
 
 import Header from 'src/components/Header';
 import News from 'src/components/News';
-
+import ListWars from 'src/components/ListWars';
 
 // == Composant
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <div className="app">
       <Header />
       <News />
+      <ListWars />
     </div>
   );
 }
