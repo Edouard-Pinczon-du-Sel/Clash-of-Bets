@@ -7,7 +7,7 @@ function News() {
     <section className="news news__visible">
       <p className="news__text">
         C'est ici qu'apparaîtront les news
-        de l'application. Cette parti pourra
+        de l'application. Cette partie pourra
         être masquée en cliquant sur news
         dans la barre de navigation
       </p>
