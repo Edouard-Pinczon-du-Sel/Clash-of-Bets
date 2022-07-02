@@ -1,20 +1,23 @@
 // == Import
 import './styles.css';
+import { Routes, Route } from 'react-router-dom';
 
-import Header from 'src/components/Header';
-import News from 'src/components/News';
-import ListWars from 'src/components/ListWars';
-import Footer from 'src/components/Footer';
+import Home from 'src/components/Home';
+import Sign from 'src/components/Logs/Sign';
+import Login from 'src/components/Logs/Login';
+
 
 // == Composant
 function App() {
   return (
     <div className="app">
-      <Header />
-      <News />
-      <ListWars />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sign" element={<Sign />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
+
   );
 }
 

@@ -15,6 +15,18 @@
 
   &__navbar--item {
     padding: 0.5rem 1rem;
+    
+  }
+
+  &__navbar--title {
+    font-size: 1.8rem;
+    padding-top: 0.2rem;
+    color: rgba(64, 64, 241, 0.678);
+  }
+
+  &__navbar--logs {
+    padding: 0.5rem 1rem;
+    color: rgba(64, 64, 241, 0.527);
   }
 
   &__navbar--item:hover {

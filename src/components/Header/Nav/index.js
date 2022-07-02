@@ -9,7 +9,7 @@ function Nav() {
         <input type="text" placeholder="Recherche..." className="header__nav--input" />
         <a href="#" className="header__nav--item">Paris</a>
         <a href="#" className="header__nav--item">Favoris</a>
-        <a href="#" className="header__nav--item">Connexion</a>
+        <a href="#" className="header__nav--item">Statistiques</a>
         <a href="#" className="header__nav--item">News</a>
       </div>
     </nav>
