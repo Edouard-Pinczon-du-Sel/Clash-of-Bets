@@ -12,7 +12,7 @@ function News() {
         être masquée en cliquant sur news
         dans la barre de navigation.
       </p>
-      <Link to="news" className="news__link">Lire plus</Link>
+      <Link to="newsletter" className="news__link">Lire plus</Link>
     </section>
   );
 }

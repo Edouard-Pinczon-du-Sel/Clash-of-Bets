@@ -1,12 +1,12 @@
 // == Import
 import './styles.scss';
-import Nav from '../../NavBar';
+import NavBar from '../../NavBar';
 
 // == Composant
 function Favorite() {
   return (
     <div>
-      <Nav />
+      <NavBar />
       <section className="clans">
         <h1 className="clans__title">Clans favoris :</h1>
         <ul className="clans__list">

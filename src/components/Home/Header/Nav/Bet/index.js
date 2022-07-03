@@ -1,12 +1,12 @@
 // == Import
 import './styles.scss';
-import Nav from '../../NavBar';
+import NavBar from '../../NavBar';
 
 // == Composant
 function Bet() {
   return (
     <div>
-      <Nav />
+      <NavBar />
       <section className="bets">
         <h1 className="bets__title">Paris en cours :</h1>
         <ul className="bets__list">

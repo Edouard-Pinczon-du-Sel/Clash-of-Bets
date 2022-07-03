@@ -1,0 +1,62 @@
+.newsletter {
+  background-color: rgba(128, 128, 128, 0.233);
+  margin: 0.6rem 15rem;
+  height: 76.5vh;
+  overflow: auto;
+
+  &__title {
+    padding: 0.5rem 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  &__list {
+    padding: 0.5rem 0.8rem
+  }
+
+  &__list--item {
+    border: 1px solid gray;
+    background-color: rgba(51, 221, 51, 0.171);
+    padding: 0.7rem 0.4rem;
+    margin-top: 0.2rem;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+  }
+
+  &__list--link {
+    color: rgb(71, 73, 207);
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  &__list--li {
+    width: 20rem;
+    margin-bottom: 0.6rem;
+
+  }
+
+  &__list--item:hover {
+    background-color: rgba(128, 128, 128, 0.514);
+    transition: 0.4s;
+    transform: translate(2px);
+  }
+
+  &__list--btn {
+    font-size: 1.1rem;
+    height: 2.3rem;
+    width: 6.4rem;
+    background-color: rgba(27, 27, 199, 0.774);
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+  &__list--btn:hover {
+    background-color: rgba(11, 11, 218, 0.924);
+    transition: 0.3s;
+  }
+}

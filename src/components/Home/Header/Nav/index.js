@@ -11,7 +11,7 @@ function Nav() {
         <Link to="bets" className="header__nav--item">Paris</Link>
         <Link to="favorites" className="header__nav--item">Favoris</Link>
         <Link to="stats" className="header__nav--item">Statistiques</Link>
-        <Link to="#" className="header__nav--item">News</Link>
+        <Link to="newsletter" className="header__nav--item">News</Link>
       </div>
     </nav>
   );
