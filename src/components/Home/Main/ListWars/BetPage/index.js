@@ -10,7 +10,7 @@ function BetPage() {
         <h1 className="bet__title">Misez ici</h1>
         <p>
           !! Attention pour le moment il n'est pas
-          possible de modifier son paris une fois
+          possible de modifier son pari une fois
           celui-ci confirmer !!
         </p>
         <form className="bet__form">

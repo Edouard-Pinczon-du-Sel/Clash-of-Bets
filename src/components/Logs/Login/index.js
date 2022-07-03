@@ -19,8 +19,8 @@ function Login() {
             <input type="surname" name="email" id="surname" placeholder="Mot de passe" className="login__input" required />
           </div>
           <p className="login__sign--text">
-            Pas de compte ? Vous pouvez vous inscrire ici : 
-            <Link to="sign" className="login__sign--btn">S'inscire</Link>
+            Pas de compte ? Vous pouvez vous inscrire ici :
+            <Link to="/sign" className="login__sign--btn">S'inscire</Link>
           </p>
           <div>
             <button type="submit" className="login__btn">Connexion</button>
