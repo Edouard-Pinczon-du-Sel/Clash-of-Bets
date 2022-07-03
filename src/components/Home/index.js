@@ -1,8 +1,8 @@
 // == Import
-import Header from 'src/components/Header';
-import News from 'src/components/News';
-import ListWars from 'src/components/ListWars';
-import Footer from 'src/components/Footer';
+import Header from 'src/components/Home/Header';
+import News from 'src/components/Home/Main/News';
+import ListWars from 'src/components/Home/Main/ListWars';
+import Footer from 'src/components/Home/Footer';
 
 // == Composant
 function Nav() {

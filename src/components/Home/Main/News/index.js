@@ -1,5 +1,6 @@
 // == Import
 import './styles.scss';
+import { Link } from 'react-router-dom';
 
 // == Composant
 function News() {
@@ -9,8 +10,9 @@ function News() {
         C'est ici qu'apparaîtront les news
         de l'application. Cette partie pourra
         être masquée en cliquant sur news
-        dans la barre de navigation
+        dans la barre de navigation.
       </p>
+      <Link to="news" className="news__link">Lire plus</Link>
     </section>
   );
 }

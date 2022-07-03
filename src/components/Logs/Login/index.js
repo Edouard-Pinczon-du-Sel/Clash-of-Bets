@@ -1,6 +1,6 @@
 // == Import
 import '../styles.scss';
-import NavBar from '../../Header/NavBar';
+import NavBar from '../../Home/Header/NavBar';
 
 // == Composant
 function Login() {

@@ -1,0 +1,29 @@
+.news {
+  background-color: rgba(128, 128, 128, 0.233);
+  height: 21vh;
+  margin: 0rem 15rem;
+  display: none;
+
+  &__visible {
+    display: block;
+  }
+
+  &__text {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4.5rem;
+  }
+
+  &__link {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 45.5%;
+    padding: 0.6rem 1rem;
+    background-color: rgba(27, 27, 199, 0.774);
+  }
+
+  &__link:hover {
+    background-color: rgba(11, 11, 218, 0.924);
+    transition: 0.3s;
+  }
+}
