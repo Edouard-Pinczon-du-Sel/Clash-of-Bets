@@ -23,12 +23,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 4rem;
   }
 
   &__list--link {
-    color: rgb(255, 255, 255);
+    color: rgb(71, 73, 207);
     font-weight: bold;
-    text-shadow: 0.4px 0.4px 1.4px black;
+    font-size: 1.4rem;
   }
 
   &__list--li {

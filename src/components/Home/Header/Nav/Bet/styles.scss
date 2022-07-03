@@ -11,7 +11,7 @@
   }
 
   &__list {
-    padding: 0.5rem 0.8rem
+    padding: 0.5rem 0.8rem;
   }
 
   &__list--item {
@@ -23,12 +23,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 5rem;
   }
 
   &__list--link {
-    color: rgb(255, 255, 255);
+    color: rgba(100, 78, 199, 0.897);
     font-weight: bold;
-    text-shadow: 0.4px 0.4px 1.4px black;
+    font-size: 1.5rem;
+    
   }
 
   &__list--li {
