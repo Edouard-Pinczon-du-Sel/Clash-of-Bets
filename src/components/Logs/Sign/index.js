@@ -23,7 +23,7 @@ function Sign() {
         </div>
         <p className="sign__login--text">
           Déjà un compte ? Vous pouvez vous connecter ici :
-          <Link to="/login" className="sign__login--btn">S'inscire</Link>
+          <Link to="/login" className="sign__login--btn">Se connecter</Link>
         </p>
         <div>
           <input type="submit" value="S'inscrire" className="sign__btn" />
