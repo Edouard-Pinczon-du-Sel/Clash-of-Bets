@@ -9,13 +9,16 @@ import { useSelector } from 'react-redux';
 // == Composant
 function Main() {
   const wars = useSelector((state) => state.wars.list);
+  console.log(wars);
   return (
     <div>
       <Header />
       <News />
-      {wars.map((war) => (
-        <ListWars key={war.id} {...war} />
-      ))}
+      <section className="wars">
+        {wars.map((war) => (
+          <ListWars key={war.id} {...war} />
+        ))}
+      </section>
       <Footer />
     </div>
   );

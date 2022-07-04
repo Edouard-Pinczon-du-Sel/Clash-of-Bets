@@ -11,4 +11,10 @@ export default [
     clan2: 'Allemagne',
     temps: '23h20',
   },
+  {
+    id: 3,
+    clan1: 'empire',
+    clan2: 'royaume',
+    temps: '23h20',
+  },
 ];
