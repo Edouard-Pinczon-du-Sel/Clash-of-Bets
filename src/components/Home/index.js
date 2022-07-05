@@ -1,6 +1,4 @@
 // == Import
-
-import Header from 'src/components/Home/Header';
 import News from 'src/components/Home/Main/News';
 import ListWars from 'src/components/Home/Main/ListWars';
 import Footer from 'src/components/Home/Footer';
@@ -12,7 +10,6 @@ function Main() {
   console.log(wars);
   return (
     <div>
-      <Header />
       <News />
       <section className="wars">
         {wars.map((war) => (

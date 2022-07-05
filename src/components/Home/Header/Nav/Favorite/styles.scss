@@ -1,8 +1,14 @@
 .clans {
   background-color: rgba(128, 128, 128, 0.233);
   margin: 0.6rem 15rem;
-  height: 76.5vh;
+  height: 80vh;
   overflow: auto;
+
+  &__search {
+    margin-left: 87%;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+  }
 
   &__title {
     padding: 0.5rem 1rem;

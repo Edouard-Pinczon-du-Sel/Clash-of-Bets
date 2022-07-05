@@ -1,13 +1,11 @@
 // == Import
 import { Link } from 'react-router-dom';
 import './styles.scss';
-import NavBar from '../../Home/Header/NavBar';
 
 // == Composant
 function Login() {
   return (
     <div>
-      <NavBar />
       <div className="login">
         <h1 className="login__title">Veuillez vous connecter</h1>
         <form action="" method="get" className="login__form">

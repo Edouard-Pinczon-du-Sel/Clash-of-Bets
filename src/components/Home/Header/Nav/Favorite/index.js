@@ -1,24 +1,23 @@
 // == Import
 import './styles.scss';
-import NavBar from '../../NavBar';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+
+import FavoriteClans from './FavoriteClans';
 
 // == Composant
 function Favorite() {
+  const clans = useSelector((state) => state.clans.list);
   return (
-    <div>
-      <NavBar />
-      <section className="clans">
-        <h1 className="clans__title">Clans favoris :</h1>
-        <ul className="clans__list">
-          <div className="clans__list--item">
-            <div>
-              <li className="clans__list--link">CLAN</li>
-            </div>
-            <button type="button" className="clans__list--btn">Supprimer</button>
-          </div>
-        </ul>
-      </section>
-    </div>
+    <section className="clans">
+      <h1 className="clans__title">Clans favoris :</h1>
+      <Link to="/favorites/clans/search" className="clans__search">Rechercher un clan</Link>
+      {
+        clans.map((clan) => (
+          <FavoriteClans key={clan.id} {...clan} />
+        ))
+      }
+    </section>
   );
 }
 
