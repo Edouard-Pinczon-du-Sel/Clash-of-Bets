@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // == Composant
 function ListWars({ id, clan1, clan2, temps}) {
   return (
-    <Link to="bets/page:id" className="wars__list--link">
+    <Link to="bets/page:id" className="wars__list--link" clan1={clan1} clan2={clan2}>
       <ul className="wars__list">
         <div className="wars__list--item">
           <div>
