@@ -43,7 +43,7 @@ function App() {
         <Route path="/favorites/clans/search" element={<FavoriteSearch />} />
         <Route path="/stats" element={<Stat />} />
         <Route path="/newsletter" element={<NewsLetter />} />
-        <Route path="/bets/page:id" element={<BetPage />} />
+        <Route path="/bets/page/:id" element={<BetPage />} />
       </Routes>
     </div>
 

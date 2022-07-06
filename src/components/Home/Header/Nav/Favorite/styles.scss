@@ -4,12 +4,6 @@
   height: 80vh;
   overflow: auto;
 
-  &__search {
-    margin-left: 87%;
-    background-color: #fff;
-    padding: 0.5rem 1rem;
-  }
-
   &__title {
     padding: 0.5rem 1rem;
     font-size: 3rem;
@@ -64,5 +58,11 @@
   &__list--btn:hover {
     background-color: rgba(204, 15, 15, 0.52);
     transition: 0.3s;
+  }
+
+  &__btn--search {
+    margin-left: 87%;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
   }
 }

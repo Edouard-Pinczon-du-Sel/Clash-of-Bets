@@ -1,0 +1,26 @@
+.clans {
+
+  &__search--container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search--title {
+    margin: 1rem 0.5rem;
+    font-size: 2rem;
+  }
+
+  &__search--input {
+    margin: 0rem 0.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  &__search {
+    margin-left: 44%;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+  }
+}

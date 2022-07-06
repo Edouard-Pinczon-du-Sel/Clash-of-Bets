@@ -11,7 +11,7 @@ function Favorite() {
   return (
     <section className="clans">
       <h1 className="clans__title">Clans favoris :</h1>
-      <Link to="/favorites/clans/search" className="clans__search">Rechercher un clan</Link>
+      <Link to="/favorites/clans/search" className="clans__btn--search">Rechercher un clan</Link>
       {
         clans.map((clan) => (
           <FavoriteClans key={clan.id} {...clan} />

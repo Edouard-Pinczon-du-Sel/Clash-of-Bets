@@ -7,7 +7,6 @@ import { useSelector } from 'react-redux';
 // == Composant
 function Main() {
   const wars = useSelector((state) => state.wars.list);
-  console.log(wars);
   return (
     <div>
       <News />
