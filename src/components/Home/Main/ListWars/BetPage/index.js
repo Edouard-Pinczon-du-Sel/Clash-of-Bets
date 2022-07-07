@@ -7,9 +7,10 @@ import './styles.scss';
 // import BetForm from './BetForm';
 
 function BetPage() {
-  const clan = useSelector((state) => state.wars.list);
   const param = useParams();
-
+  const clan = useSelector(
+    (state) => state.wars.list.find((war) => war.id === parseInt(param.id, 10)),
+  );
   return (
     <section className="bet">
       <h1 className="bet__title">Misez ici</h1>
@@ -19,13 +20,16 @@ function BetPage() {
         celui-ci confirmer !!
       </p>
       <form className="bet__form">
-        <label for="bet-select" className="bet__label--select">Choisissez le clan sur lequel vous voulez parier</label>
+        <label htmlFor="bet-select" className="bet__label--select">Choisissez le clan sur lequel vous voulez parier</label>
         <select name="bet-select" className="bet__select">
           <option>----</option>
-          <option>{}</option>
-          <option>{}</option>
+          {
+            clan.clans.map((option) => (
+              <option key={option}>{option}</option>
+            ))
+          }
         </select>
-        <label for="bet" className="bet__label--input">Combien voulez vous miser ?</label>
+        <label htmlFor="bet" className="bet__label--input">Combien voulez vous miser ?</label>
         <input name="bet" type="number" className="bet__input" placeholder="Entrer votre mise..." />
         <button type="submit" className="bet__btn">Confirmer</button>
       </form>
