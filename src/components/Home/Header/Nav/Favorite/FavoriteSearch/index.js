@@ -1,9 +1,13 @@
 // == Import
 import './styles.scss';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import ClansSearched from './ClansSearched';
 
 // == Composant
 function FavoriteSearch() {
+  const clans = useSelector((state) => state.clans.list);
+
   return (
     <section className="clans">
       <div className="clans__search--container">
@@ -11,6 +15,11 @@ function FavoriteSearch() {
         <input type="text" placeholder="Recherche..." className="clans__search--input" />
         <Link to="/favorites/clans" className="clans__search">Mes Favoris</Link>
       </div>
+      {
+        clans.map((clan) => (
+          <ClansSearched key={clan.id} {...clan} />
+        ))
+      }
     </section>
   );
 }

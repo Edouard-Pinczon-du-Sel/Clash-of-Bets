@@ -9,10 +9,10 @@ export default [
   },
   {
     id: 3,
-    clan: 'Unis',
+    clan: 'Allemagne',
   },
   {
     id: 4,
-    clan: 'meUn',
+    clan: 'France',
   },
 ];
